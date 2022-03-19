@@ -22,9 +22,6 @@ export const DefaultScreen: React.FC<DefaultScreenProps> = (props) => {
         { id: 6, title: 'LG' }
     ];
 
-    const _itemChoose = (item: any) => {
-        alert(item.title);
-    }
 
     return (
 
